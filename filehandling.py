@@ -7,7 +7,7 @@ def get_pdbids_from_txt(filename, directory):
             pdbid_list = pdbid_txt.read().splitlines()  #Read .txt file and ignore the linebreaks
         return pdbid_list
     except Exception as error:
-        print(error)
+        print(error)#
         print("Are you sure the filename you specified exists?")
 
 
